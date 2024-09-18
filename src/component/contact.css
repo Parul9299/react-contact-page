@@ -1,0 +1,251 @@
+    .first_sec {
+        width: 100%;
+        min-width: 90%;
+        padding: 100px 0 40px 0;
+        background-image: url('../component/background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+    }
+
+    .first_sec .title {
+        text-align: center;
+        padding: 40px 0;
+        color: #fff;
+    }
+
+    .first_sec .title h2 {
+        font-size: 85px;
+    }
+
+    .first_sec .title p {
+        padding: 20px 0;
+        opacity: 80%;
+        font-size: 20px;
+    }
+
+
+    /* ========================================================= */
+
+    .second_sec,
+    .third_sec,
+    .map {
+        background: #fff;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+        gap: 30px;
+        padding-top: 50px;
+    }
+
+    /* ========================================================== */
+
+    .second_sec .thought {
+        width: 35%;
+        text-align: left;
+        padding: 100px 20px;
+    }
+
+    .second_sec .thought h3 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 72px;
+        text-align: left;
+        color: #212121;
+    }
+
+    .second_sec .thought span {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+        color: #212121;
+    }
+
+    .second_sec .thought p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: #212121;
+        padding-top: 10px;
+    }
+
+    /* ==================================== */
+
+    .second_sec form {
+        width: 35%;
+        display: block;
+        padding: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .second_sec form .form-title {
+        padding-bottom: 60px;
+    }
+
+    .second_sec form .form-title h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        color: #212121;
+    }
+
+    .second_sec form .input-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_sec form .input-row .input-box {
+        position: relative;
+        margin-bottom: 70px;
+    }
+
+    .second_sec form .input-row .input-box input {
+        position: absolute;
+        width: 93%;
+        padding: 15px;
+        font-size: 15px;
+        color: #666;
+        border: none;
+        border-radius: 3px;
+        border: 1px solid #ECECEC;
+        transition: ease 0.1s;
+        z-index: 3;
+    }
+
+    .second_sec form .input-row .input-box input:focus {
+        color: #0F001F;
+        opacity: 80%;
+        font-size: 12px;
+        outline: none;
+    }
+
+    .second_sec form .submit .submit-btn {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        background-color: #101828;
+        color: #fff;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        cursor: pointer;
+        transition: ease-in-out 0.3s;
+    }
+
+    .second_sec form .submit .submit-btn:hover {
+        width: 96%;
+        transform: translate(10px, 0);
+        background: transparent;
+        color: #101828;
+        border-color: #101828;
+    }
+
+
+    /* ====================================================== */
+
+    
+
+    .third_sec .title {
+        width: 100%;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+    }
+
+    .third_sec .card-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-top: 50px;
+    }
+
+    .third_sec .card-row .card {
+        width: 100%;
+        padding: 30px;
+        transition: ease-in-out 0.3s;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-align: center;
+    }
+
+    .third_sec .card-row .card h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ECECEC;
+    }
+
+    .third_sec .card-row .card .mail,
+    .third_sec .card-row .card .location {
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .third_sec .card-row .card .call {
+        display: flex;
+        gap: 10px;
+    }
+
+    .third_sec .card-row .card .call i,
+    .third_sec .card-row .card .mail i,
+    .third_sec .card-row .card .location i {
+        font-size: 25px;
+    }
+
+    .third_sec .card-row .card .call span {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+    }
+
+    .third_sec .card-row .card:hover{
+        background-color: #101828;
+        color: #fff;
+        transform: scale(1.02);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+
+    /* -----------------------------Responsive--------------------------------- */
+
+    @media (max-width: 768px) {
+
+        .second_sec .thought,
+        .second_sec form{
+            width: 100%;
+        }
+        .second_sec form .submit .submit-btn:hover {
+            width: 94%;
+            transform: translate(10px, 0);
+            background: transparent;
+            color: #101828;
+            border-color: #101828;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .third_sec .card-row > *{
+            flex: 1;
+        }
+    }
